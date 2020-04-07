@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_Firefox_74 is: WIN_10_Firefox_74]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_Firefox_74]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Firefox_74">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="browserVersion" value="74"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Launch shopping page]]>
+    </line>
+    <line>
+      <![CDATA[Maximixe browser window]]>
+    </line>
+    <line>
+      <![CDATA[Wait for page to load]]>
+    </line>
+    <line>
+      <![CDATA[Verify Page Logo]]>
+    </line>
+    <line>
+      <![CDATA[Click on Sign in]]>
+    </line>
+    <line>
+      <![CDATA[Scroll page down]]>
+    </line>
+    <line>
+      <![CDATA[Sign into an application]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[Click on signin button]]>
+    </line>
+    <line>
+      <![CDATA[Click on dressestab ]]>
+    </line>
+    <line>
+      <![CDATA[Click on casual dresses]]>
+    </line>
+    <line>
+      <![CDATA[Select product]]>
+    </line>
+    <line>
+      <![CDATA[Enter product quantity]]>
+    </line>
+    <line>
+      <![CDATA[Enter Size]]>
+    </line>
+    <line>
+      <![CDATA[Click on add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Product successfully added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Continue shopping]]>
+    </line>
+    <line>
+      <![CDATA[Click on dressestab ]]>
+    </line>
+    <line>
+      <![CDATA[Click on evening dresses]]>
+    </line>
+    <line>
+      <![CDATA[Select Dress]]>
+    </line>
+    <line>
+      <![CDATA[Enter product quantity]]>
+    </line>
+    <line>
+      <![CDATA[Enter Size]]>
+    </line>
+    <line>
+      <![CDATA[Click on add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Product successfully added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on Continue shopping]]>
+    </line>
+    <line>
+      <![CDATA[Click on dressestab ]]>
+    </line>
+    <line>
+      <![CDATA[Click on summer dresses]]>
+    </line>
+    <line>
+      <![CDATA[Select Dress]]>
+    </line>
+    <line>
+      <![CDATA[Enter product quantity]]>
+    </line>
+    <line>
+      <![CDATA[Enter Size]]>
+    </line>
+    <line>
+      <![CDATA[Click on add to cart]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Product successfully added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[Click on proceed to checkout]]>
+    </line>
+    <line>
+      <![CDATA[Click on proceed to checkout]]>
+    </line>
+    <line>
+      <![CDATA[Click on proceed to checkout]]>
+    </line>
+    <line>
+      <![CDATA[Click on policy agreement]]>
+    </line>
+    <line>
+      <![CDATA[Click on proceed to checkout]]>
+    </line>
+    <line>
+      <![CDATA[Click on Bankwire]]>
+    </line>
+    <line>
+      <![CDATA[Click on ConfirmOrder]]>
+    </line>
+    <line>
+      <![CDATA[Click on Back to orders]]>
+    </line>
+    <line>
+      <![CDATA[Click on Details]]>
+    </line>
+    <line>
+      <![CDATA[FirstProduct is successfully verified]]>
+    </line>
+    <line>
+      <![CDATA[SecondProduct successfully verified]]>
+    </line>
+    <line>
+      <![CDATA[ThirdProduct is successfully verified]]>
+    </line>
+    <line>
+      <![CDATA[Click on Signout]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-Sample-WIN_10_Firefox_74" duration-ms="331864" started-at="2020-04-07T12:24:46Z" finished-at="2020-04-07T12:30:18Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="331864" started-at="2020-04-07T12:24:46Z" finished-at="2020-04-07T12:30:18Z">
+      <class name="com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories@74f692e5]" name="preSetup" is-config="true" duration-ms="17" started-at="2020-04-07T17:54:46Z" finished-at="2020-04-07T17:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="openShoppingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories@74f692e5]" name="openShoppingPage" is-config="true" duration-ms="13413" started-at="2020-04-07T17:54:46Z" finished-at="2020-04-07T17:54:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launch shopping page]]>
+            </line>
+            <line>
+              <![CDATA[Maximixe browser window]]>
+            </line>
+            <line>
+              <![CDATA[Wait for page to load]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openShoppingPage -->
+        <test-method status="PASS" signature="verifyOrdersDetailsOfDresses(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories@74f692e5]" name="verifyOrdersDetailsOfDresses" duration-ms="317927" started-at="2020-04-07T17:55:00Z" data-provider="testdata" finished-at="2020-04-07T18:00:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sowjanya236@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sow234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Page Logo]]>
+            </line>
+            <line>
+              <![CDATA[Click on Sign in]]>
+            </line>
+            <line>
+              <![CDATA[Scroll page down]]>
+            </line>
+            <line>
+              <![CDATA[Sign into an application]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[Click on signin button]]>
+            </line>
+            <line>
+              <![CDATA[Click on dressestab ]]>
+            </line>
+            <line>
+              <![CDATA[Click on casual dresses]]>
+            </line>
+            <line>
+              <![CDATA[Select product]]>
+            </line>
+            <line>
+              <![CDATA[Enter product quantity]]>
+            </line>
+            <line>
+              <![CDATA[Enter Size]]>
+            </line>
+            <line>
+              <![CDATA[Click on add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Product successfully added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Continue shopping]]>
+            </line>
+            <line>
+              <![CDATA[Click on dressestab ]]>
+            </line>
+            <line>
+              <![CDATA[Click on evening dresses]]>
+            </line>
+            <line>
+              <![CDATA[Select Dress]]>
+            </line>
+            <line>
+              <![CDATA[Enter product quantity]]>
+            </line>
+            <line>
+              <![CDATA[Enter Size]]>
+            </line>
+            <line>
+              <![CDATA[Click on add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Product successfully added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on Continue shopping]]>
+            </line>
+            <line>
+              <![CDATA[Click on dressestab ]]>
+            </line>
+            <line>
+              <![CDATA[Click on summer dresses]]>
+            </line>
+            <line>
+              <![CDATA[Select Dress]]>
+            </line>
+            <line>
+              <![CDATA[Enter product quantity]]>
+            </line>
+            <line>
+              <![CDATA[Enter Size]]>
+            </line>
+            <line>
+              <![CDATA[Click on add to cart]]>
+            </line>
+            <line>
+              <![CDATA[Verifying Product successfully added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[Click on proceed to checkout]]>
+            </line>
+            <line>
+              <![CDATA[Click on proceed to checkout]]>
+            </line>
+            <line>
+              <![CDATA[Click on proceed to checkout]]>
+            </line>
+            <line>
+              <![CDATA[Click on policy agreement]]>
+            </line>
+            <line>
+              <![CDATA[Click on proceed to checkout]]>
+            </line>
+            <line>
+              <![CDATA[Click on Bankwire]]>
+            </line>
+            <line>
+              <![CDATA[Click on ConfirmOrder]]>
+            </line>
+            <line>
+              <![CDATA[Click on Back to orders]]>
+            </line>
+            <line>
+              <![CDATA[Click on Details]]>
+            </line>
+            <line>
+              <![CDATA[FirstProduct is successfully verified]]>
+            </line>
+            <line>
+              <![CDATA[SecondProduct successfully verified]]>
+            </line>
+            <line>
+              <![CDATA[ThirdProduct is successfully verified]]>
+            </line>
+            <line>
+              <![CDATA[Click on Signout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersDetailsOfDresses -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories@74f692e5]" name="teardown" is-config="true" duration-ms="2224" started-at="2020-04-07T18:00:18Z" finished-at="2020-04-07T18:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_10_Firefox_74 -->
+</testng-results>

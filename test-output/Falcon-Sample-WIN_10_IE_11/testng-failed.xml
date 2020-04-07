@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-WIN_10_IE_11]">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="browserVersion" value="11"/>
+  <test name="SampleTest(failed)">
+    <classes>
+      <class name="com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginIntoApp" invocation-numbers="0"/>
+          <include name="preSetup"/>
+          <include name="openShoppingPage"/>
+        </methods>
+      </class> <!-- com.atmecs.qa.automationassessmentproject.testscript.TC_01_Verify_Order_Details_Of_Dresses_For_Three_Categories -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_10_IE_11] -->
